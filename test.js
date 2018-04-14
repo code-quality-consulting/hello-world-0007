@@ -5,4 +5,5 @@ function makeGreeting() {
 }
 
 assert.equal(makeGreeting(), "Hello world!");
+assert.equal(makeGreeting("Jason"), "Hello Jason!");
 console.log("success");
