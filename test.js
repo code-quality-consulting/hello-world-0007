@@ -1,6 +1,9 @@
+/*jslint
+    node
+*/
 const assert = require("assert");
 
-function makeGreeting(name="world") {
+function makeGreeting(name = "world") {
     return "Hello" + " " + name + "!";
 }
 
